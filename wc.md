@@ -5,6 +5,6 @@ find . -name '*' | xargs wc -l
 ---
 
 ```bash
-# Count all lines inside a file
+# Count all lines inside a current folder
 ls -la | wc -l
 ```
