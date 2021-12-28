@@ -13,3 +13,6 @@
 ### Show the total of lines
 
 `awk  '{sum+=$1} END {print sum}' counts.txt`
+
+### Count lines recursively on MAC OSX
+`find . -name '*.*' | xargs wc -l`
